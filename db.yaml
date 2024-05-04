@@ -13,7 +13,7 @@
   - name: start and enable mysql server
     ansible.builtin.service:
       name: mysqld
-      state: start
+      state: started
       enable: yes
 # check password is already setup or not
   - name: check db connections
